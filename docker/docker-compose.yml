@@ -78,7 +78,7 @@ services:
 
   # MinIO for file storage (ticket attachments)
   minio:
-    image: bitnami/minio:latest
+    image: soldevelo/minio:latest
     container_name: resolve360-minio
     environment:
       MINIO_ROOT_USER: admin
